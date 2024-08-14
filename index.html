@@ -7,7 +7,7 @@
     <!-- Bootstrap 5 CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Estilos personalizados -->
-    <link rel="icon" href="teresita.png">
+    <link rel="icon" href="img/teresita.png">
     <style>
         .hero-section {
             background: linear-gradient(to right, #5908af, #2575fc); /* Gradiente morado a azul */
@@ -20,19 +20,18 @@
             flex-direction: column;
         }
 
-        /* Estilo para pantallas pequeñas (móviles y tabletas) */
         @media (max-width: 768px) {
             .hero-section {
-                min-height: 100vh; /* Ocupa el 100% de la altura del viewport en móviles y tabletas */
-                padding: 50px 20px; /* Ajusta el padding para que se vea bien en pantallas pequeñas */
+                min-height: 100vh;
+                padding: 50px 20px;
             }
         }
 
-        /* Estilo para pantallas grandes (PC y laptops) */
+
         @media (min-width: 769px) {
             .hero-section {
-                min-height: auto; /* Quita el min-height para pantallas grandes */
-                padding: 100px 0; /* Restaura el padding original */
+                min-height: auto;
+                padding: 100px 0;
             }
         }
 
@@ -62,46 +61,66 @@
         </div>
     </section>
 
-    <!-- Materiales Section -->
     <section id="materials" class="py-5">
         <div class="container">
             <div class="row text-center">
                 <h2 class="mb-5">Materiales del Proyecto</h2>
-                <div class="col-md-4">
+
+                <div class="col-md-4 mb-4">
                     <div class="card material-card shadow-sm">
                         <div class="card-body">
-                            <h5 class="card-title">Final Project</h5>
-                            <p class="card-text">Enunciado del trabajo final</p>
+                            <h5 class="card-title">Final Project <img src="img/1.png" alt="" style="height: 1.5em; vertical-align: middle;"></h5>
+                            <p class="card-text">Enunciado del trabajo final.</p>
                             <a href="Carpeta/upc-pre-202402-si730-final_project-statement-abet_v1.pdf" class="btn btn-primary" target="_blank">Ver PDFs</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 mb-4">
                     <div class="card material-card shadow-sm">
                         <div class="card-body">
-                            <h5 class="card-title">Google Docs</h5>
-                            <p class="card-text">Verefica tus notas de paticipación de cada Sprint.</p>
+                            <h5 class="card-title">Google Docs <img src="img/2.png" alt="" style="height: 1.5em; vertical-align: middle;"></h5>
+                            <p class="card-text">Notas de participación de cada Sprint.</p>
                             <a href="https://drive.google.com/drive/folders/1e5JmbKP7qWquLaqGP19QDZ9S11HypKvE?usp=sharing" class="btn btn-primary" target="_blank">Abrir Google Docs</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 mb-4">
                     <div class="card material-card shadow-sm">
                         <div class="card-body">
-                            <h5 class="card-title">Organización en GitHub</h5>
-                            <p class="card-text">Explora el código fuente en nuestro repositorio.</p>
+                            <h5 class="card-title">Organización en GitHub <img src="img/3.png" alt="" style="height: 1.5em; vertical-align: middle;"></h5>
+                            <p class="card-text">Código fuente del proyecto.</p>
                             <a href="https://github.com/velardesoft/" class="btn btn-primary" target="_blank">Ir a GitHub </a>
                         </div>
                     </div>
                 </div>
+
+                <!-- Segunda fila de tarjetas -->
+                <div class="col-md-4 mb-4">
+                    <div class="card material-card shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title">Diseño en Figma <img src="img/5.png" alt="" style="height: 1.5em; vertical-align: middle;"></h5>
+                            <p class="card-text">Diseño de Wireframes y MockUps</p>
+                            <a href="#" class="btn btn-primary" target="_blank">Ver Figma</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card material-card shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title">Landing Page <img src="img/4.png" alt="" style="height: 1.5em; vertical-align: middle;"></h5>
+                            <p class="card-text">Accede a nuestra web.</p>
+                            <a href="#" class="btn btn-primary" target="_blank">Sitio Web</a>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
 
-    <!-- Footer Section -->
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2024 Web Applications UPC - SI92. Todos los derechos reservados.</p>
+            <p>&copy; 2024 Web Applications UPC - SI92. </p>
         </div>
     </footer>
 
